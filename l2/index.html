@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Height and width</title>
+    <title>Background Image</title>
     <style>
         * {
             margin: 0;
@@ -20,6 +20,16 @@
             height: 50px;
             width: 50px;
             background-color: rgb(255, 0, 0);
+            visibility: hidden;
+        }
+
+        #icon {
+            height: 200px;
+            width: 200px;
+            background-image: url(myntra-logo.jpg);
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
         }
     </style>
 </head>
@@ -27,6 +37,7 @@
 <body>
     <div class="back">Background color</div>
     <div class="box1">Box1</div>
+    <div id="icon"></div>
 </body>
 
 </html>
