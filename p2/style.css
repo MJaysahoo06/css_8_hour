@@ -1,0 +1,28 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.textback{
+    background-color: rgba(7, 152, 192, 0.836);
+    color: blueviolet;
+
+}
+
+main{
+    height: 200px;
+    background-color:rgb(207, 132, 18);
+}
+
+#product{
+    height: 200px;
+    width: 400px;
+    /* background-color: green;
+    background-image: url(download.jpg);
+    background-repeat: no-repeat;
+    background-position: center; */
+
+    background: green url(download.jpg) no-repeat center;
+}
