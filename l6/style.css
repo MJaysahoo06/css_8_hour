@@ -11,35 +11,29 @@
     background-color: palevioletred;
     display: flex;
     flex-direction: row-reverse;
-    
+    justify-content: flex-end;
+    flex-wrap: wrap;
 }
 #heading{text-align: center;}
 .box{
     height: 80px;
-    width: 170px;/*it adjust the width of the box so that all the item it fit i.e shrink*/
+    width: 170px;
     margin: 5px;
     border: 3px solid black;
 }
 #box1{
     background-color: rgb(216, 241, 23);
     border: 3px solid black;
-    flex-direction: column-reverse;
-    display: flex;
 }
 #box2{
     background-color: rgb(73, 73, 238);
     border: 3px solid black;
-    flex-direction: row-reverse;
-    display: flex;
 }
 #box3{
     background-color: rgb(115, 237, 21);
     border: 3px solid black;
-    flex-direction: column-reverse;
-    display: flex;
 }
 #box4{
     background-color: rgb(231, 13, 115);
     border: 3px solid black;
-    display: flex;
 }
