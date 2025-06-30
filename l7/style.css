@@ -1,0 +1,26 @@
+
+        .Pseudo {
+            height: 25px;
+            width: 150px;
+            background-color: forestgreen;
+            border: 2px solid black;
+            border-radius: 10px;
+
+            transition-property: all;
+            transition-duration: 1s;
+            transition-timing-function:steps(2);
+            transition-delay: 0s;
+        }
+
+        .Pseudo:hover {
+            height: 30px;
+            width: 160px;
+            background-color: lightcoral;
+        }
+
+        .Pseudo:active {
+            height: 30px;
+            width: 160px;
+            background-color: rgb(0, 17, 255);
+        }
+    
