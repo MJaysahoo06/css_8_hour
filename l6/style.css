@@ -11,13 +11,14 @@
     background-color: palevioletred;
     display: flex;
     flex-direction: row-reverse;
-    justify-content: flex-end;
+    justify-content: center;
     flex-wrap: wrap;
+    align-items: center;
 }
 #heading{text-align: center;}
 .box{
     height: 80px;
-    width: 170px;
+    width: 80px;
     margin: 5px;
     border: 3px solid black;
 }
